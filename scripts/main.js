@@ -20,7 +20,7 @@ const VERBS = {
             she: "was",
             they: "were"
         }
-    }
+    },
     enjoy: {
         present: {
             she: "enjoys",
