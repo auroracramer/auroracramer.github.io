@@ -25,7 +25,7 @@ function capitalizeFirstLetter(string) {
 
 function renderPronouns() {
     const elements = document.getElementsByClassName("pronoun");
-    elements.forEach(function (el, idx) {
+    Array.prototype.forEach.call(elements, function (el) {
         let form = el.getAttribute('form');
         let case_ = el.getAttribute('case')
         let pn = randomPronouns(form);
