@@ -20,6 +20,29 @@ img {
   margin-bottom: 10px;
 }
 
+.aurora-greeting-div {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  display: block;
+}
+
+.aurora-greeting-text {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.aurora-greeting-img {
+  max-width: 750px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#aurora-main-text {
+  margin: auto;
+}
+
 .is-compact .mdl-layout__title span {
   display: none;
 }
@@ -104,7 +127,7 @@ img {
 
 .welcome-card > .mdl-card__title {
   color: #fff;
-  height: 290px;
+  height: 100px;
   background: url("../img/spectrogram.png") center/cover;
 }
 
@@ -195,16 +218,10 @@ img.article-image {
   background-position: center center;
   background-repeat: no-repeat;
   border: none;
+  margin: auto;
 }
 
 
-.person1 {
-  background: url("../img/person1.jpg") center/cover;
-}
-
-.person2 {
-  background: url("../img/person2.jpg") center/cover;
-}
 
 .demo-card-image > .mdl-card__actions {
   height: 52px;
@@ -246,5 +263,14 @@ footer .mdl-logo a {
    vertical-align: text-bottom;
 }
 
+
 ul {
-    list-style-type: none; }
+    list-style-type: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em auto;
+    margin-right: 1em auto;
+    width: 95%;
+}
+
+
