@@ -3,11 +3,11 @@
 //
 
 const PRONOUNS = {
-    subject: ["she", "they"],
-    object: ["her", "them"],
-    determiner: ["her", "their"],
-    possesive: ["hers", "theirs"],
-    reflexive: ["herself", "themself"]
+    subject: ["they"],
+    object: ["them"],
+    determiner: ["their"],
+    possesive: ["theirs"],
+    reflexive: ["themself"]
 }
 
 const VERBS = {
